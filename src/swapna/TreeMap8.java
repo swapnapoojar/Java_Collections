@@ -1,0 +1,20 @@
+package swapna;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TreeMap8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeMap<Integer,String> t1=new TreeMap();
+		t1.put(4, "D");
+		t1.put(1, "H");
+		t1.put(2,"K");
+		t1.put(3,"S");
+
+		System.out.println("First key:"+t1.firstKey());
+		System.out.println("Last key:"+t1.lastKey());
+	}
+
+}
